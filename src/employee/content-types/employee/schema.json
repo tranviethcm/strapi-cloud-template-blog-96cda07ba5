@@ -1,0 +1,124 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "employee"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LastName": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "Sex": {
+      "type": "string"
+    },
+    "JobTitle": {
+      "type": "string"
+    },
+    "Dept": {
+      "type": "string"
+    },
+    "Branch": {
+      "type": "string"
+    },
+    "WorkStreet": {
+      "type": "string"
+    },
+    "WorkBlock": {
+      "type": "string"
+    },
+    "WorkCity": {
+      "type": "string"
+    },
+    "WorkCountry": {
+      "type": "string"
+    },
+    "SalesPerson": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sap-user.sap-user"
+    },
+    "Manager": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sap-user.sap-user"
+    },
+    "OfficeTel": {
+      "type": "string"
+    },
+    "Mobile": {
+      "type": "string"
+    },
+    "OfficeEmail": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "TermDate": {
+      "type": "string"
+    },
+    "BankCode": {
+      "type": "string"
+    },
+    "BankAccount": {
+      "type": "string"
+    },
+    "HomeStreet": {
+      "type": "string"
+    },
+    "HomeBlock": {
+      "type": "string"
+    },
+    "HomeCity": {
+      "type": "string"
+    },
+    "HomeCountry": {
+      "type": "string"
+    },
+    "BirthDay": {
+      "type": "string"
+    },
+    "MartStatus": {
+      "type": "string"
+    },
+    "nChildren": {
+      "type": "string"
+    },
+    "GovID": {
+      "type": "string"
+    },
+    "UserSign": {
+      "type": "string"
+    },
+    "UserSign2": {
+      "type": "string"
+    },
+    "UpdateDate": {
+      "type": "string"
+    },
+    "ExtEmpNo": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "string"
+    },
+    "Code": {
+      "type": "string"
+    }
+  }
+}

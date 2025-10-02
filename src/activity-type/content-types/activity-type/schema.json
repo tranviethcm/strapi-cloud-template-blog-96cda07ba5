@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activity_types",
+  "info": {
+    "singularName": "activity-type",
+    "pluralName": "activity-types",
+    "displayName": "ActivityType"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Code": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}
